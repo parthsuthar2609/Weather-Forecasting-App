@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(71, 243, 255)
+}
+.card{
+        width: 90%;
+        max-width: 450px;
+        background: linear-gradient(135deg,#00feba,#0e9ec2);
+        color:#fff;
+        margin: 10px auto 0;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color:#555;
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+
+}
+.whether-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 500px;
+}
+.city{
+    font-size: 30px;
+    font-weight: 500;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 2px;
+}
+.col{
+    font-size: 20px;
+    font-weight: 600;
+}
+.weather{
+    display: none;
+}
+
